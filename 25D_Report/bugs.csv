@@ -1,0 +1,4 @@
+bug
+    [TEST] When parent specification is created after standalone specification error occurs.
+    [BULK COMPLIANCE TEMPLATE] Bulk compliance template has hard coded specifications.
+    BOM Report not showing compliance status on an AML when it is present in actual.
