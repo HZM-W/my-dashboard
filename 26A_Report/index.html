@@ -18,7 +18,7 @@
     body { background:#f3f6f9; }
     .card-ghost { background: #fff; border-radius: 8px; box-shadow: 0 6px 18px rgba(16,24,40,.06); }
     .table-left { max-width: 520px; }
-    .chart-card { min-height: 280px; }
+    .chart-card { min-height: 400px; height: 100%; }  /* updated */
     .section-title { font-weight:600; color:#d43f3f; }
     .note { font-size:0.85rem; color:#8a8f98; }
     .legend-dot { width:10px; height:6px; display:inline-block; margin-right:6px; border-radius:2px; }
@@ -35,7 +35,7 @@
         This report summarizes issues encountered during recent testing, visualized by type and date.
       </p>
       <p class="small">
-        🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 01 October - present
+        🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 01 October – present
       </p>
     </div>
 
@@ -82,8 +82,8 @@
               <span class="mx-2 legend-dot" style="background:#2f8e3c"></span> Closed Issues
             </div>
           </div>
-          <div class="pt-3">
-            <canvas id="issuesChart" height="160"></canvas>
+          <div class="pt-3" style="height:350px"> <!-- updated wrapper -->
+            <canvas id="issuesChart"></canvas>
           </div>
         </div>
       </div>
@@ -203,7 +203,7 @@
       },
       options: {
         responsive: true,
-        maintainAspectRatio: false,
+        maintainAspectRatio: false, // important for resizing
         plugins: { legend: { display: false } },
         scales: {
           x: { ticks: { maxRotation: 0, minRotation: 0 }},
