@@ -1,14 +1,92 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Dashboard</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Compliance Tracking Dashboard</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f4f6f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .dashboard-title {
+      font-weight: 600;
+      text-align: center;
+      margin: 30px 0;
+      color: #333;
+    }
+    .card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+      transition: all 0.2s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+    .card-title {
+      font-weight: 600;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #888;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>Available Reports</h1>
-  <ul>
-    <li><a href="25D_Report/index.html">25D Release Report</a></li>
-    <!-- <li><a href="26_Report/">26D Release Report</a></li>
-    <li><a href="27_Report/">27D Release Report</a></li> -->
-  </ul>
+  <div class="container">
+    <h1 class="dashboard-title">📊 Compliance Tracking Dashboard</h1>
+
+    <div class="row g-4">
+      <!-- Report 25D -->
+      <div class="col-md-4">
+        <a href="25D_Report/index.html" style="text-decoration:none; color:inherit;">
+          <div class="card h-100 p-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">25D Release Report</h5>
+              <p class="card-text text-muted">Issue tracking summary for 25D release cycle.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Report 26D -->
+      <div class="col-md-4">
+        <a href="26A_Report/index.html" style="text-decoration:none; color:inherit;">
+          <div class="card h-100 p-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">26D Release Report</h5>
+              <p class="card-text text-muted">Issue tracking summary for 26D release cycle.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Report 27D -->
+      <div class="col-md-4">
+        <a href="26B_Report/index.html" style="text-decoration:none; color:inherit;">
+          <div class="card h-100 p-3">
+            <div class="card-body text-center">
+              <h5 class="card-title">27D Release Report</h5>
+              <p class="card-text text-muted">Issue tracking summary for 27D release cycle.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer mt-5">
+      <p>🚀 Maintained by QA Team | Powered by GitHub Pages</p>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
