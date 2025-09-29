@@ -8,17 +8,17 @@
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- DataTables (optional) -->
+  <!-- DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
-  <!-- Font Awesome for icons -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     body { background:#f3f6f9; }
     .card-ghost { background: #fff; border-radius: 8px; box-shadow: 0 6px 18px rgba(16,24,40,.06); }
     .table-left { max-width: 520px; }
-    .chart-card { min-height: 400px; height: 100%; }  /* updated */
+    .chart-card { min-height: 400px; height: 100%; }
     .section-title { font-weight:600; color:#d43f3f; }
     .note { font-size:0.85rem; color:#8a8f98; }
     .legend-dot { width:10px; height:6px; display:inline-block; margin-right:6px; border-radius:2px; }
@@ -26,20 +26,14 @@
 </head>
 <body>
   <div class="container-fluid p-4">
-    <!-- Page Title Section -->
+    <!-- Page Title -->
     <div class="text-center mb-4">
-      <h3 class="fw-bold">
-        📊 26A Release Issue Tracking Report
-      </h3>
-      <p class="text-muted">
-        This report summarizes issues encountered during recent testing, visualized by type and date.
-      </p>
-      <p class="small">
-        🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 01 October – present
-      </p>
+      <h3 class="fw-bold">📊 26A Release Issue Tracking Report</h3>
+      <p class="text-muted">This report summarizes issues encountered during recent testing, visualized by type and date.</p>
+      <p class="small">🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 01 October – present</p>
     </div>
 
-    <!-- Stats Cards -->
+    <!-- Stats -->
     <div class="row g-4 mb-4 justify-content-center">
       <div class="col-md-3">
         <div class="card card-ghost text-center p-3">
@@ -56,12 +50,12 @@
     </div>
 
     <div class="row g-4">
-      <!-- left table -->
+      <!-- Table -->
       <div class="col-lg-4">
         <div class="card card-ghost p-3 table-left">
           <div class="d-flex justify-content-between align-items-center mb-2">
             <h5 class="mb-0">Datewise Issues</h5>
-            <small class="text-muted">Recent 2 weeks</small>
+            <!-- <small class="text-muted">Recent 2 weeks</small> -->
           </div>
           <table id="issuesTable" class="table table-sm table-bordered text-center">
             <thead class="table-dark">
@@ -72,7 +66,7 @@
         </div>
       </div>
 
-      <!-- right chart -->
+      <!-- Chart -->
       <div class="col-lg-8">
         <div class="card card-ghost p-3 chart-card">
           <div class="d-flex justify-content-between align-items-center">
@@ -82,13 +76,13 @@
               <span class="mx-2 legend-dot" style="background:#2f8e3c"></span> Closed Issues
             </div>
           </div>
-          <div class="pt-3" style="height:350px"> <!-- updated wrapper -->
+          <div class="pt-3" style="height:350px">
             <canvas id="issuesChart"></canvas>
           </div>
         </div>
       </div>
 
-      <!-- lower cards -->
+      <!-- Bugs -->
       <div class="col-lg-6">
         <div class="card card-ghost p-4">
           <h6 class="section-title"><i class="fa-solid fa-bug me-2"></i>Open Important Bugs</h6>
@@ -98,6 +92,7 @@
         </div>
       </div>
 
+      <!-- Pending -->
       <div class="col-lg-6">
         <div class="card card-ghost p-4">
           <h6 class="section-title" style="color:#f6b200"><i class="fa-solid fa-pencil me-2"></i>Pending Test Coverage</h6>
@@ -112,105 +107,76 @@
   <!-- JS libs -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-
-  <!-- DataTables -->
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
   <script>
-    // sample data (replace with dynamic fetch from your API)
-    const dataRows = [
-      ["2025-10-01", 0, 0]
-    ];
+    // Load CSV helper
+    async function loadCSV(file) {
+      const response = await fetch(file);
+      const text = await response.text();
+      return Papa.parse(text, { header: true }).data.filter(r => Object.values(r).some(v => v));
+    }
 
-    const openBugs = [
-      ""
-    ];
+    async function initDashboard() {
+      // --- 1. Load issues CSV ---
+      const issues = await loadCSV("dateClosevsNew.csv");
 
-    const pending = [
-      ""
-    ];
-
-    // populate table
-    const tbody = document.getElementById('issuesBody');
-    dataRows.forEach(r => {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td>`;
-      tbody.appendChild(tr);
-    });
-
-    // update counts dynamically
-    const totalNew = dataRows.reduce((sum, r) => sum + r[1], 0);
-    const totalClosed = dataRows.reduce((sum, r) => sum + r[2], 0);
-    const openIssues = totalNew - totalClosed;
-
-    document.getElementById("openIssuesCount").textContent = openIssues;
-    document.getElementById("closedIssuesCount").textContent = totalClosed;
-
-    // apply DataTables (optional)
-    $(document).ready(function(){
-      $('#issuesTable').DataTable({
-        paging: false,
-        info: false,
-        searching: false,
-        order: [[0, 'desc']],
-        columnDefs: [{ targets: [0], type: 'date' }]
+      // Table
+      const tbody = document.getElementById('issuesBody');
+      tbody.innerHTML = "";
+      issues.forEach(r => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${r.date}</td><td>${r.new}</td><td>${r.closed}</td>`;
+        tbody.appendChild(tr);
       });
-    });
 
-    // populate lists
-    const bugsEl = document.getElementById('openBugs');
-    openBugs.forEach(b => {
-      const li = document.createElement('li'); li.textContent = b; bugsEl.appendChild(li);
-    });
-    const pendEl = document.getElementById('pendingList');
-    pending.forEach(p => {
-      const li = document.createElement('li'); li.textContent = p; pendEl.appendChild(li);
-    });
+      // Counts
+      const totalNew = issues.reduce((sum, r) => sum + parseInt(r.new || 0), 0);
+      const totalClosed = issues.reduce((sum, r) => sum + parseInt(r.closed || 0), 0);
+      document.getElementById("closedIssuesCount").textContent = totalClosed;
+      document.getElementById("openIssuesCount").textContent = totalNew - totalClosed;
 
-    // prepare chart
-    const labels = dataRows.map(row => row[0]);
-    const newData = dataRows.map(row => row[1]);
-    const closedData = dataRows.map(row => row[2]);
+      // Chart
+      const ctx = document.getElementById('issuesChart');
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: issues.map(r => r.date),
+          datasets: [
+            { label: 'New Issues', data: issues.map(r => parseInt(r.new || 0)), borderColor: '#d69d2f', backgroundColor: 'rgba(214,157,47,0.08)', tension: 0.4, fill: true },
+            { label: 'Closed Issues', data: issues.map(r => parseInt(r.closed || 0)), borderColor: '#2f8e3c', backgroundColor: 'rgba(47,142,60,0.08)', tension: 0.4, fill: true }
+          ]
+        },
+        options: { responsive:true, maintainAspectRatio:false, plugins:{ legend:{ display:false } } }
+      });
 
-    const ctx = document.getElementById('issuesChart');
-    new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels,
-        datasets: [
-          {
-            label: 'New Issues',
-            data: newData,
-            borderColor: '#d69d2f',
-            backgroundColor: 'rgba(214,157,47,0.08)',
-            tension: 0.4,
-            pointRadius: 3,
-            fill: true
-          },
-          {
-            label: 'Closed Issues',
-            data: closedData,
-            borderColor: '#2f8e3c',
-            backgroundColor: 'rgba(47,142,60,0.08)',
-            tension: 0.4,
-            pointRadius: 3,
-            fill: true
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false, // important for resizing
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { maxRotation: 0, minRotation: 0 }},
-          y: { beginAtZero: true, suggestedMax: 15 }
-        }
-      }
-    });
+      // DataTable
+      $('#issuesTable').DataTable({ paging:false, info:false, searching:false, order:[[0,'desc']] });
+
+      // --- 2. Load bugs CSV ---
+      const bugs = await loadCSV("bugs.csv");
+      const bugsEl = document.getElementById('openBugs');
+      bugsEl.innerHTML = "";
+      bugs.forEach(b => {
+        const li = document.createElement('li');
+        li.textContent = b.bug;
+        bugsEl.appendChild(li);
+      });
+
+      // --- 3. Load pending CSV ---
+      const pending = await loadCSV("pending.csv");
+      const pendEl = document.getElementById('pendingList');
+      pendEl.innerHTML = "";
+      pending.forEach(p => {
+        const li = document.createElement('li');
+        li.textContent = p.item;
+        pendEl.appendChild(li);
+      });
+    }
+
+    initDashboard();
   </script>
 </body>
 </html>
