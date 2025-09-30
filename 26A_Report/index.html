@@ -81,6 +81,16 @@
         </div>
       </div>
 
+      <!-- Features in this release  -->
+      <div class="col-lg-6">
+        <div class="card card-ghost p-4">
+          <h6 class="section-title"><i class="fa-solid fa-puzzle-piece me-2"></i>Features in this release</h6>
+          <p class="note">Features to be covered in this release</p>
+          <ul id="featureRelease" class="mb-0"></ul>
+          <p class="note mt-2"><em>Note: The list may get updated. </em></p>
+        </div>
+      </div>
+
       <!-- Bugs -->
       <div class="col-lg-6">
         <div class="card card-ghost p-4">
@@ -172,6 +182,16 @@
         const li = document.createElement('li');
         li.textContent = p.item;
         pendEl.appendChild(li);
+      });
+
+      // --- 4. Load features in this release ---
+      const features = await loadCSV("feature.csv");
+      const featEl = document.getElementById('featureRelease');
+      featEl.innerHTML = "";
+      features.forEach(p => {
+        const li = document.createElement('li');
+        li.textContent = p.feature;
+        featEl.appendChild(li);
       });
     }
 
