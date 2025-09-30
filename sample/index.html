@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>26A Issues Tracking Report</title>
+  <title>25D Issues Tracking Report</title>
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,9 +28,9 @@
   <div class="container-fluid p-4">
     <!-- Page Title -->
     <div class="text-center mb-4">
-      <h3 class="fw-bold">📊 26A Release Issue Tracking Report</h3>
+      <h3 class="fw-bold">📊 25D Release Issue Tracking Report</h3>
       <p class="text-muted">This report summarizes issues encountered during recent testing, visualized by type and date.</p>
-      <p class="small">🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 01 October – present</p>
+      <p class="small">🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 15 September – 30 September</p>
     </div>
 
     <!-- Stats -->
@@ -55,7 +55,6 @@
         <div class="card card-ghost p-3 table-left">
           <div class="d-flex justify-content-between align-items-center mb-2">
             <h5 class="mb-0">Datewise Issues</h5>
-            <!-- <small class="text-muted">Recent 2 weeks</small> -->
           </div>
           <table id="issuesTable" class="table table-sm table-bordered text-center">
             <thead class="table-dark">
@@ -112,9 +111,9 @@
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
   <script>
-    // Load CSV helper
+    // Load CSV helper with cache-busting
     async function loadCSV(file) {
-      const response = await fetch(file);
+      const response = await fetch(file + '?t=' + new Date().getTime());
       const text = await response.text();
       return Papa.parse(text, { header: true }).data.filter(r => Object.values(r).some(v => v));
     }
