@@ -30,7 +30,7 @@
     <div class="text-center mb-4">
       <h3 class="fw-bold">📊 26A Release Issue Tracking Report</h3>
       <p class="text-muted">This report summarizes issues encountered during recent testing, visualized by type and date.</p>
-      <p class="small">🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 01 October – present</p>
+      <p class="small">🛠️ <strong>Build Regression and Performance Testing Timeline:</strong> 01 October - present</p>
     </div>
 
     <!-- Stats -->
@@ -55,7 +55,6 @@
         <div class="card card-ghost p-3 table-left">
           <div class="d-flex justify-content-between align-items-center mb-2">
             <h5 class="mb-0">Datewise Issues</h5>
-            <!-- <small class="text-muted">Recent 2 weeks</small> -->
           </div>
           <table id="issuesTable" class="table table-sm table-bordered text-center">
             <thead class="table-dark">
@@ -112,9 +111,9 @@
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
   <script>
-    // Load CSV helper
+    // Load CSV helper with cache-busting
     async function loadCSV(file) {
-      const response = await fetch(file);
+      const response = await fetch(file + '?t=' + new Date().getTime());
       const text = await response.text();
       return Papa.parse(text, { header: true }).data.filter(r => Object.values(r).some(v => v));
     }
