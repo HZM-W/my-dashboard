@@ -7,3 +7,5 @@ bug
     0007992: Go Compliance Test instance keeps on crashing
     0007994: Test Instance Running Slow
     0007987: FMD mass is not picked on IPC Class-C file imported
+    0007985: Substance cannot be added multiple times for IPC-Class C
+	0007983: FMD Mass is non editable
