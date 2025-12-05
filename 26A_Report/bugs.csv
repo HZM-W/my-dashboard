@@ -1,0 +1,9 @@
+bug
+	0008004: Composition with invalid CAS Number was submitted
+    0008003: Supplier is not able to open declaration blocks
+    0008000: [Substance-Where-Used-Report] Not working on Test Instance
+    0007999: [Substance-Where-Used-Report] Column appearing Empty
+    0007998: Declaration Still Listed Under Awaiting Approval and Progress Incorrectly Updated
+    0007992: Go Compliance Test instance keeps on crashing
+    0007994: Test Instance Running Slow
+    0007987: FMD mass is not picked on IPC Class-C file imported
