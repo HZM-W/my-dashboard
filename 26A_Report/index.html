@@ -92,14 +92,63 @@
       </div>
 
       <!-- Bugs -->
-      <div class="col-lg-6">
-        <div class="card card-ghost p-4">
-          <h6 class="section-title"><i class="fa-solid fa-bug me-2"></i>Open Important Bugs</h6>
-          <p class="note">These bugs are high-priority and remain unresolved. Immediate attention is required:</p>
-          <ul id="openBugs" class="mb-0"></ul>
-          <p class="note mt-2"><em>Note: This list is updated based on severity and impact.</em></p>
-        </div>
+    <div class="col-lg-6">
+      <div class="card card-ghost p-4">
+        <h6 class="section-title"><i class="fa-solid fa-bug me-2"></i>Open Important Bugs</h6>
+        <p class="note">These bugs are high-priority and remain unresolved. Immediate attention is required:</p>
+
+        <table id="bugsTable" class="table table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>Bug ID</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <p class="note mt-2"><em>Note: This list is updated based on severity and impact.</em></p>
       </div>
+    </div>
+
+    <script>
+      async function loadBugsFromCSV() {
+        try {
+          const response = await fetch("bugs.csv");
+          const csvText = await response.text();
+
+          const rows = csvText.trim().split("\n");
+          const tbody = document.querySelector("#bugsTable tbody");
+
+          rows.forEach(row => {
+            const [id, ...rest] = row.split(":");
+            const description = rest.join(":").trim();
+
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+              <td>${id.trim()}</td>
+              <td>${description}</td>
+            `;
+            tbody.appendChild(tr);
+          });
+
+          // ✅ Apply DataTables ONLY to bugs table
+          $('#bugsTable').DataTable({
+            paging: true,
+            searching: true,
+            info: true,
+            order: [[0, "desc"]]
+          });
+
+        } catch (error) {
+          console.error("Error loading CSV:", error);
+        }
+      }
+
+      loadBugsFromCSV();
+      </script>
+
+
 
       <!-- Pending -->
       <div class="col-lg-6">
@@ -163,16 +212,6 @@
 
       // DataTable
       $('#issuesTable').DataTable({ paging:false, info:false, searching:false, order:[[0,'desc']] });
-
-      // --- 2. Load bugs CSV ---
-      const bugs = await loadCSV("bugs.csv");
-      const bugsEl = document.getElementById('openBugs');
-      bugsEl.innerHTML = "";
-      bugs.forEach(b => {
-        const li = document.createElement('li');
-        li.textContent = b.bug;
-        bugsEl.appendChild(li);
-      });
 
       // --- 3. Load pending CSV ---
       const pending = await loadCSV("pending.csv");
