@@ -1,13 +1,13 @@
 bug
-    0008015: [Full Material Compliance Report] FMD Report not working
+	0008024: [Campaign Manager] - Composition Submission Data Missing in “Type of Data Received” Graph
+    0008023: [Declaration Flow] Affected Object are not displayed upon opening it to supplier.
+    0008021: [Campaign Manager] - No Declarations Created and Validation Errors Not Displayed
     0008014: Incorrect percentages in Campaign Analytics Graph Data
     0008010: [PM-Specification] Specification Creation Failure
-    0008005: Supplier Distribution by Completion Rate (%) Graph Not Displaying data
     0008004: Composition with invalid CAS Number was submitted
     0008003: Supplier is not able to open declaration blocks
     0008004: Composition with invalid CAS Number was submitted
     0008003: Supplier is not able to open declaration blocks
-    0007999: [Substance-Where-Used-Report] Column appearing Empty
     0007998: Declaration Still Listed Under Awaiting Approval and Progress Incorrectly Updated
     0007987: FMD mass is not picked on IPC Class-C file imported
     0007985: Substance cannot be added multiple times for IPC-Class C
