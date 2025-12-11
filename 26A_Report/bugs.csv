@@ -11,23 +11,16 @@
 0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field
 0008019: [Declaration Flow] Affected Object dropdown selection issue
 0008018: Upload Attachment Error for FMD (IPC Class D)
-0008017: [Campaign Manager] Average Supplier Response Time Showing Negative Value
 0008016: [Substance-Where-Used-Report] UI issue upon substance selection
 0008014: Incorrect percentages in Campaign Analytics Graph Data
 0008013: [Pending Declaration] Default sorting is not according latest created declaration
 0008011: [Declaration Flow] Icons are not clickable once closed through the cross button
 0008010: [PM-Specification] Specification Creation Failure
 0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed
-0008006: Set Priority Field Not Allowing Selection of Low or Medium Options
-0008005: Supplier Distribution by Completion Rate (%) Graph Not Displaying data
 0008004: Composition with invalid CAS Number was submitted
 0008003: Supplier is not able to open declaration blocks
-0008002: Supplier Distribution Chart – Y-Axis Value Format Issue
 0008001: Selected Specifications Not Displayed in Campaign Manager
-0007998: Declaration Still Listed Under Awaiting Approval and Progress Incorrectly Updated
-0007997: Edited campaign shows Draft status in Campaign Manager but Active in campaign state history.
 0007996: Validation Errors tab does not display duplicate or partially overlapping campaign data
-0007995: Incorrect Progress Percentage Displayed for Active Campaign
 0007994: Test Instance Running Slow
 0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details
 0007988: Approved CMRT question answers data is not visible

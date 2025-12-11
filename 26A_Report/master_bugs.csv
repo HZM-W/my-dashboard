@@ -12,29 +12,31 @@ Bug Info,Status,Created Date,Closed Date
 0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field,Open,2025-12-08,
 0008019: [Declaration Flow] Affected Object dropdown selection issue,Open,2025-12-08,
 0008018: Upload Attachment Error for FMD (IPC Class D),Open,2025-12-08,
-0008017: [Campaign Manager] Average Supplier Response Time Showing Negative Value,Open,2025-12-08,
+0008017: [Campaign Manager] Average Supplier Response Time Showing Negative Value,Closed,2025-12-08,2025-12-11
 0008016: [Substance-Where-Used-Report] UI issue upon substance selection,Open,2025-12-08,
 0008014: Incorrect percentages in Campaign Analytics Graph Data,Open,2025-12-08,
 0008013: [Pending Declaration] Default sorting is not according latest created declaration,Open,2025-12-08,
 0008011: [Declaration Flow] Icons are not clickable once closed through the cross button,Open,2025-12-08,
 0008010: [PM-Specification] Specification Creation Failure,Open,2025-12-08,
 0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed,Open,2025-12-08,
-0008006: Set Priority Field Not Allowing Selection of Low or Medium Options,Open,2025-12-05,
-0008005: Supplier Distribution by Completion Rate (%) Graph Not Displaying data,Open,2025-12-05,
+0008006: Set Priority Field Not Allowing Selection of Low or Medium Options,Closed,2025-12-05,2025-12-11
+0008005: Supplier Distribution by Completion Rate (%) Graph Not Displaying data,Closed,2025-12-05,2025-12-11
 0008004: Composition with invalid CAS Number was submitted,Open,2025-12-05,
 0008003: Supplier is not able to open declaration blocks,Open,2025-12-05,
-0008002: Supplier Distribution Chart – Y-Axis Value Format Issue,Open,2025-12-05,
+0008002: Supplier Distribution Chart – Y-Axis Value Format Issue,Closed,2025-12-05,2025-12-11
 0008001: Selected Specifications Not Displayed in Campaign Manager,Open,2025-12-05,
-0007998: Declaration Still Listed Under Awaiting Approval and Progress Incorrectly Updated,Open,2025-12-05,
-0007997: Edited campaign shows Draft status in Campaign Manager but Active in campaign state history.,Open,2025-12-05,
+0007998: Declaration Still Listed Under Awaiting Approval and Progress Incorrectly Updated,Closed,2025-12-05,2025-12-11
+0007997: Edited campaign shows Draft status in Campaign Manager but Active in campaign state history.,Closed,2025-12-05,2025-12-11
 0007996: Validation Errors tab does not display duplicate or partially overlapping campaign data,Open,2025-12-05,
-0007995: Incorrect Progress Percentage Displayed for Active Campaign,Open,2025-12-05,
+0007995: Incorrect Progress Percentage Displayed for Active Campaign,Closed,2025-12-05,2025-12-11
 0007994: Test Instance Running Slow,Open,2025-12-05,
 0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details,Open,2025-12-05,
 0007988: Approved CMRT question answers data is not visible,Open,2025-12-05,
 0007987: FMD mass is not picked on IPC Class-C file imported,Open,2025-12-05,
 0007985: Substance cannot be added be added multiple times for IPC-Class C,Open,2025-12-05,
 0007983: FMD Mass is non-editable,Open,2025-12-10,
+0007981: Follow-Up Schedule Field Issue,Closed,2025-12-11,2025-12-11
+0007970: Item creation with organization association failing in test environment,Closed,2025-12-11,2025-12-11
 0007965: In the Regulated Substances Report no data is displayed in the generated report for newly created bundle,Open,2025-12-05,
 0007962: [Material Declaration from PLM] Workflow status not updated,Open,2025-12-05,
 Legacy Resolved Issue,Closed,2025-12-05,2025-12-09
