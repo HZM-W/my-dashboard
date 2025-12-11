@@ -1,6 +1,4 @@
 Bug Info,Status,Created Date,Closed Date
-0008030: [Declaration Flow] Composition not updated after overwriting the existing, Open,2025-12-11,
-0008029: [Declaration Flow] Unable to edit declaration through Edit Button, Open,2025-12-11,
 0008028: [Campaign Manager] - Y-Axis Not Displaying Full Supplier Names,Open,2025-12-09,
 0008027: [Declaration Flow] Unknown Substance button is missing while filling declaration,Open,2025-12-09,
 0008026: [Declaration Flow] Unknown Substance not displayed in the popup,Open,2025-12-09,
@@ -45,3 +43,5 @@ Legacy Resolved Issue,Closed,2025-12-10,2025-12-09
 Legacy Resolved Issue,Closed,2025-12-10,2025-12-08
 Legacy Resolved Issue,Closed,2025-12-10,2025-12-10
 Legacy Resolved Issue,Closed,2025-12-10,2025-12-10
+0008030: [Declaration Flow] Composition not updated after overwriting the existing, Open,2025-12-11,
+0008029: [Declaration Flow] Unable to edit declaration through Edit Button, Open,2025-12-11,
