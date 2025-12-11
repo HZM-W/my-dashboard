@@ -111,42 +111,6 @@
       </div>
     </div>
 
-    <script>
-      async function loadBugsFromCSV() {
-        try {
-          const response = await fetch("bugs.csv");
-          const csvText = await response.text();
-
-          const rows = csvText.trim().split("\n");
-          const tbody = document.querySelector("#bugsTable tbody");
-
-          rows.forEach(row => {
-            const [id, ...rest] = row.split(":");
-            const description = rest.join(":").trim();
-
-            const tr = document.createElement("tr");
-            tr.innerHTML = `
-              <td>${id.trim()}</td>
-              <td>${description}</td>
-            `;
-            tbody.appendChild(tr);
-          });
-
-          // ✅ Apply DataTables ONLY to bugs table
-          $('#bugsTable').DataTable({
-            paging: true,
-            searching: true,
-            info: true,
-            order: [[0, "desc"]]
-          });
-
-        } catch (error) {
-          console.error("Error loading CSV:", error);
-        }
-      }
-
-      loadBugsFromCSV();
-      </script>
 
 
 
@@ -233,7 +197,40 @@
         featEl.appendChild(li);
       });
     }
+      async function loadBugsFromCSV() {
+        try {
+          const response = await fetch("bugs.csv");
+          const csvText = await response.text();
 
+          const rows = csvText.trim().split("\n");
+          const tbody = document.querySelector("#bugsTable tbody");
+
+          rows.forEach(row => {
+            const [id, ...rest] = row.split(":");
+            const description = rest.join(":").trim();
+
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+              <td>${id.trim()}</td>
+              <td>${description}</td>
+            `;
+            tbody.appendChild(tr);
+          });
+
+          // ✅ Apply DataTables ONLY to bugs table
+          $('#bugsTable').DataTable({
+            paging: true,
+            searching: true,
+            info: true,
+            order: [[0, "desc"]]
+          });
+
+        } catch (error) {
+          console.error("Error loading CSV:", error);
+        }
+      }
+
+      loadBugsFromCSV();
     initDashboard();
   </script>
 </body>
