@@ -1,10 +1,12 @@
 Bug Info,Status,Created Date,Closed Date
+0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Open,2025-12-12,
+0008038: [Generate CoC] Unable to Generate CoC report on test instance,Open,2025-12-12,
 0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph,Open,2025-12-11,
 0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received',Open,2025-12-11,
 0008035: [Declaration Flow] Need a Review Errors step for 4th option (Manually Add Substance),Open,2025-12-11,
 0008034: [Campaign Manager] - Completion rate and Status Display Errors,Open,2025-12-11,
 0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph,Open,2025-12-11,
-0008032: [Declaration Flow] Add "Composition Type" Column in Affected object tab of Declaration block,Open,2025-12-11,
+0008032: [Declaration Flow] Add "Composition Type" Column in Affected object tab of Declaration block,Closed,2025-12-11,2025-12-12
 0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error,Open,2025-12-11,
 0008030: [Declaration Flow] Composition not updated after overwriting the existing,Open,2025-12-11,
 0008029: [Declaration Flow] Unable to edit declaration through Edit Button,Open,2025-12-11,
@@ -22,9 +24,9 @@ Bug Info,Status,Created Date,Closed Date
 0008017: [Campaign Manager] Average Supplier Response Time Showing Negative Value,Closed,2025-12-08,2025-12-11
 0008016: [Substance-Where-Used-Report] UI issue upon substance selection,Open,2025-12-08,
 0008014: Incorrect percentages in Campaign Analytics Graph Data,Open,2025-12-08,
-0008013: [Pending Declaration] Default sorting is not according latest created declaration,Open,2025-12-08,
+0008013: [Pending Declaration] Default sorting is not according latest created declaration,Closed,2025-12-08,2025-12-12
 0008011: [Declaration Flow] Icons are not clickable once closed through the cross button,Open,2025-12-08,
-0008010: [PM-Specification] Specification Creation Failure,Open,2025-12-08,
+0008010: [PM-Specification] Specification Creation Failure,Closed,2025-12-08,2025-12-12
 0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed,Open,2025-12-08,
 0008006: Set Priority Field Not Allowing Selection of Low or Medium Options,Closed,2025-12-05,2025-12-11
 0008005: Supplier Distribution by Completion Rate (%) Graph Not Displaying data,Closed,2025-12-05,2025-12-11

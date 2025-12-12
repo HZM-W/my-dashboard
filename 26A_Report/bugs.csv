@@ -1,9 +1,10 @@
+0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file
+0008038: [Generate CoC] Unable to Generate CoC report on test instance
 0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph
 0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received'
 0008035: [Declaration Flow] Need a Review Errors step for 4th option (Manually Add Substance)
 0008034: [Campaign Manager] - Completion rate and Status Display Errors
 0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph
-0008032: [Declaration Flow] Add "Composition Type" Column in Affected object tab of Declaration block
 0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error
 0008030: [Declaration Flow] Composition not updated after overwriting the existing
 0008029: [Declaration Flow] Unable to edit declaration through Edit Button
@@ -20,9 +21,7 @@
 0008018: Upload Attachment Error for FMD (IPC Class D)
 0008016: [Substance-Where-Used-Report] UI issue upon substance selection
 0008014: Incorrect percentages in Campaign Analytics Graph Data
-0008013: [Pending Declaration] Default sorting is not according latest created declaration
 0008011: [Declaration Flow] Icons are not clickable once closed through the cross button
-0008010: [PM-Specification] Specification Creation Failure
 0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed
 0008004: Composition with invalid CAS Number was submitted
 0008003: Supplier is not able to open declaration blocks
