@@ -1,4 +1,6 @@
 Bug Info,Status,Created Date,Closed Date
+0008041: Campaign Manager - Dashboard Completion Rate Graph Bars Not Clickable,Open,2025-12-15,
+0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts,Open,2025-12-15,
 0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Open,2025-12-12,
 0008038: [Generate CoC] Unable to Generate CoC report on test instance,Open,2025-12-12,
 0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph,Open,2025-12-11,
@@ -12,14 +14,14 @@ Bug Info,Status,Created Date,Closed Date
 0008029: [Declaration Flow] Unable to edit declaration through Edit Button,Open,2025-12-11,
 0008028: [Campaign Manager] - Y-Axis Not Displaying Full Supplier Names,Open,2025-12-09,
 0008027: [Declaration Flow] Unknown Substance button is missing while filling declaration,Open,2025-12-09,
-0008026: [Declaration Flow] Unknown Substance not displayed in the popup,Open,2025-12-09,
+0008026: [Declaration Flow] Unknown Substance not displayed in the popup,Closed,2025-12-09,2025-12-15
 0008025: Unable to reset password through email and from account,Open,2025-12-09,
 0008024: [Campaign Manager] - Composition Submission Data Missing in “Type of Data Received” Graph,Open,2025-12-08,
-0008023: [Declaration Flow] Affected Object are not displayed upon opening it to supplier.,Open,2025-12-08,
+0008023: [Declaration Flow] Affected Object are not displayed upon opening it to supplier.,Closed,2025-12-08,2025-12-15
 0008022: [Declaration Flow] "3" is displayed in declared compliance after removing exemption,Open,2025-12-08,
 0008021: [Campaign Manager] - No Declarations Created and Validation Errors Not Displayed,Open,2025-12-08,
 0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field,Open,2025-12-08,
-0008019: [Declaration Flow] Affected Object dropdown selection issue,Open,2025-12-08,
+0008019: [Declaration Flow] Affected Object dropdown selection issue,Closed,2025-12-08,2025-12-15
 0008018: Upload Attachment Error for FMD (IPC Class D),Open,2025-12-08,
 0008017: [Campaign Manager] Average Supplier Response Time Showing Negative Value,Closed,2025-12-08,2025-12-11
 0008016: [Substance-Where-Used-Report] UI issue upon substance selection,Open,2025-12-08,
