@@ -44,7 +44,7 @@ def update_dashboard():
         new_counts = df.groupby(df['Created Date'].dt.date).size().rename('new')
         
         # Count Closed Issues
-        closed_bugs = df[df['Status'] == 'closed']
+        closed_bugs = df[df['Status'] == 'C']
         closed_counts = closed_bugs.groupby(closed_bugs['Closed Date'].dt.date).size().rename('closed')
         
         # Merge
@@ -59,7 +59,7 @@ def update_dashboard():
         print("🐞 Generating open bugs list...")
         
         # Filter for Open bugs
-        open_bugs_df = df[df['Status'] == 'open']
+        open_bugs_df = df[df['Status'] == 'O']
         open_bugs_list = open_bugs_df['Bug Info'].tolist()
         
         print(f"   Found {len(open_bugs_list)} open bugs in master file.")
