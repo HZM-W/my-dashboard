@@ -1,0 +1,38 @@
+0008043: [Declaration Flow] Affected Object Selection Issue - Parent/Child Specs
+0008042: [Declaration Flow] Download Template Bug
+0008041: Campaign Manager - Dashboard Completion Rate Graph Bars Not Clickable
+0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts
+0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file
+0008038: [Generate CoC] Unable to Generate CoC report on test instance
+0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph
+0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received'
+0008035: [Declaration Flow] Need a Review Errors step for 4th option (Manually Add Substance)
+0008034: [Campaign Manager] - Completion rate and Status Display Errors
+0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph
+0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error
+0008030: [Declaration Flow] Composition not updated after overwriting the existing
+0008029: [Declaration Flow] Unable to edit declaration through Edit Button
+0008028: [Campaign Manager] - Y-Axis Not Displaying Full Supplier Names
+0008027: [Declaration Flow] Unknown Substance button is missing while filling declaration
+0008025: Unable to reset password through email and from account
+0008024: [Campaign Manager] - Composition Submission Data Missing in “Type of Data Received” Graph
+0008022: [Declaration Flow] "3" is displayed in declared compliance after removing exemption
+0008021: [Campaign Manager] - No Declarations Created and Validation Errors Not Displayed
+0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field
+0008018: Upload Attachment Error for FMD (IPC Class D)
+0008016: [Substance-Where-Used-Report] UI issue upon substance selection
+0008014: Incorrect percentages in Campaign Analytics Graph Data
+0008011: [Declaration Flow] Icons are not clickable once closed through the cross button
+0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed
+0008004: Composition with invalid CAS Number was submitted
+0008003: Supplier is not able to open declaration blocks
+0008001: Selected Specifications Not Displayed in Campaign Manager
+0007996: Validation Errors tab does not display duplicate or partially overlapping campaign data
+0007994: Test Instance Running Slow
+0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details
+0007988: Approved CMRT question answers data is not visible
+0007987: FMD mass is not picked on IPC Class-C file imported
+0007985: Substance cannot be added be added multiple times for IPC-Class C
+0007983: FMD Mass is non-editable
+0007965: In the Regulated Substances Report no data is displayed in the generated report for newly created bundle
+0007962: [Material Declaration from PLM] Workflow status not updated
