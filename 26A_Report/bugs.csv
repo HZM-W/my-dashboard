@@ -1,3 +1,4 @@
+0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications
 0008046: [Declaration Flow] Drag and Upload not working
 0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics
 0008044: [Declaration Flow] Download Template State not updated upon option selection.
@@ -34,8 +35,5 @@
 0007994: Test Instance Running Slow
 0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details
 0007988: Approved CMRT question answers data is not visible
-0007987: FMD mass is not picked on IPC Class-C file imported
-0007985: Substance cannot be added be added multiple times for IPC-Class C
-0007983: FMD Mass is non-editable
 0007965: In the Regulated Substances Report no data is displayed in the generated report for newly created bundle
 0007962: [Material Declaration from PLM] Workflow status not updated
