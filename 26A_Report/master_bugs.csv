@@ -1,4 +1,5 @@
 Bug Info,Status,Created Date,Closed Date
+0008048: GoCompliance Chabot Not working showing unexpected error,Closed,2025-12-17,2025-12-17
 0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications,Open,2025-12-17,
 0008046: [Declaration Flow] Drag and Upload not working,Open,2025-12-17,
 0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics,Open,2025-12-16,
@@ -7,8 +8,8 @@ Bug Info,Status,Created Date,Closed Date
 0008042: [Declaration Flow] Download Template Bug,Open,2025-12-16,
 0008041: Campaign Manager - Dashboard Completion Rate Graph Bars Not Clickable,Open,2025-12-15,
 0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts,Open,2025-12-15,
-0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Open,2025-12-12,
-0008038: [Generate CoC] Unable to Generate CoC report on test instance,Open,2025-12-12,
+0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Closed,2025-12-12,2025-12-17
+0008038: [Generate CoC] Unable to Generate CoC report on test instance,Closed,2025-12-12,2025-12-17
 0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph,Open,2025-12-11,
 0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received',Open,2025-12-11,
 0008035: [Declaration Flow] Need a Review Errors step for 4th option (Manually Add Substance),Open,2025-12-11,
