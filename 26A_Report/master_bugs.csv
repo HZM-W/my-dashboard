@@ -49,6 +49,9 @@ Bug Info,Status,Created Date,Closed Date
 0007994: Test Instance Running Slow,Open,2025-12-05,
 0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details,Open,2025-12-05,
 0007988: Approved CMRT question answers data is not visible,Open,2025-12-05,
+0007987: FMD mass is not picked on IPC Class-C file imported (Tag: 26A Hotfix),Open,2025-12-05,
+0007985: Substance cannot be added be added multiple times for IPC-Class C (Tag: 26A Hotfix),Open,2025-12-05,
+0007983: FMD Mass is non-editable (Tag: 26A Hotfix),Open,2025-12-10,
 0007981: Follow-Up Schedule Field Issue,Closed,2025-12-11,2025-12-11
 0007970: Item creation with organization association failing in test environment,Closed,2025-12-11,2025-12-11
 0007965: In the Regulated Substances Report no data is displayed in the generated report for newly created bundle,Open,2025-12-05,
