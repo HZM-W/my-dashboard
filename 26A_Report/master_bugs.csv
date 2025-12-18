@@ -1,10 +1,11 @@
 Bug Info,Status,Created Date,Closed Date
-0008057: [Campaign Manager] - Incorrect Column Names in Type of Data Received Table,Open,2025-12-18,
+0008058: [Campaign Manager] - Reset Button issue,Open,2025-12-18,
+0008057: [Campaign Manager] - Incorrect Column Names in Type of Data Received Table,Closed,2025-12-18,2025-12-18
 0008056: [Campaign Manager] - Specification-Based Response Graph Shows Irrelevant Campaigns,Open,2025-12-18,
 0008055: [Declaration Flow] UI Issue after submitting declaration for approval,Open,2025-12-18,
 0008054: [Campaign Manage] - Missing Supplier and Parts After Launching an Edited Campaign,Open,2025-12-18,
 0008053: [Campaign Manager] - Campaign deadline performance issue,Open,2025-12-18,
-0008052: [MPN block] Compute Compliance from Composition giving an validation type error.,Open,2025-12-17,
+0008052: [MPN block] Compute Compliance from Composition giving an validation type error.,Closed,2025-12-17,2025-12-18
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs,Open,2025-12-17,
 0008050: [Campaign Manager] - Target completion date selection issue,Open,2025-12-17,
 0008049: [Campaign Manager] - Specification selection issue,Open,2025-12-17,
@@ -12,7 +13,7 @@ Bug Info,Status,Created Date,Closed Date
 0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications,Closed,2025-12-17,2025-12-18
 0008046: [Declaration Flow] Drag and Upload not working,Open,2025-12-17,
 0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics,Open,2025-12-16,
-0008044: [Declaration Flow] Download Template State not updated upon option selection.,Open,2025-12-16,
+0008044: [Declaration Flow] Download Template State not updated upon option selection.,Closed,2025-12-16,2025-12-18
 0008043: [Declaration Flow] Affected Object Selection Issue - Parent/Child Specs,Closed,2025-12-16,2025-12-18
 0008042: [Declaration Flow] Download Template Bug,Closed,2025-12-16,2025-12-18
 0008041: Campaign Manager - Dashboard Completion Rate Graph Bars Not Clickable,Open,2025-12-15,
@@ -45,7 +46,7 @@ Bug Info,Status,Created Date,Closed Date
 0008013: [Pending Declaration] Default sorting is not according latest created declaration,Closed,2025-12-08,2025-12-12
 0008011: [Declaration Flow] Icons are not clickable once closed through the cross button,Closed,2025-12-08,2025-12-18
 0008010: [PM-Specification] Specification Creation Failure,Closed,2025-12-08,2025-12-12
-0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed,Open,2025-12-08,
+0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed,Closed,2025-12-08,2025-12-18
 0008006: Set Priority Field Not Allowing Selection of Low or Medium Options,Closed,2025-12-05,2025-12-11
 0008005: Supplier Distribution by Completion Rate (%) Graph Not Displaying data,Closed,2025-12-05,2025-12-11
 0008004: Composition with invalid CAS Number was submitted,Open,2025-12-05,
