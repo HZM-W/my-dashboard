@@ -1,4 +1,9 @@
 Bug Info,Status,Created Date,Closed Date
+0008057: [Campaign Manager] - Incorrect Column Names in Type of Data Received Table,Open,2025-12-18,
+0008056: [Campaign Manager] - Specification-Based Response Graph Shows Irrelevant Campaigns,Open,2025-12-18,
+0008055: [Declaration Flow] UI Issue after submitting declaration for approval,Open,2025-12-18,
+0008054: [Campaign Manage] - Missing Supplier and Parts After Launching an Edited Campaign,Open,2025-12-18,
+0008053: [Campaign Manager] - Campaign deadline performance issue,Open,2025-12-18,
 0008052: [MPN block] Compute Compliance from Composition giving an validation type error.,Open,2025-12-17,
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs,Open,2025-12-17,
 0008050: [Campaign Manager] - Target completion date selection issue,Open,2025-12-17,
@@ -8,8 +13,8 @@ Bug Info,Status,Created Date,Closed Date
 0008046: [Declaration Flow] Drag and Upload not working,Open,2025-12-17,
 0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics,Open,2025-12-16,
 0008044: [Declaration Flow] Download Template State not updated upon option selection.,Open,2025-12-16,
-0008043: [Declaration Flow] Affected Object Selection Issue - Parent/Child Specs,Open,2025-12-16,
-0008042: [Declaration Flow] Download Template Bug,Open,2025-12-16,
+0008043: [Declaration Flow] Affected Object Selection Issue - Parent/Child Specs,Closed,2025-12-16,2025-12-18
+0008042: [Declaration Flow] Download Template Bug,Closed,2025-12-16,2025-12-18
 0008041: Campaign Manager - Dashboard Completion Rate Graph Bars Not Clickable,Open,2025-12-15,
 0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts,Open,2025-12-15,
 0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Closed,2025-12-12,2025-12-17
@@ -21,15 +26,15 @@ Bug Info,Status,Created Date,Closed Date
 0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph,Open,2025-12-11,
 0008032: [Declaration Flow] Add "Composition Type" Column in Affected object tab of Declaration block,Closed,2025-12-11,2025-12-12
 0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error,Open,2025-12-11,
-0008030: [Declaration Flow] Composition not updated after overwriting the existing,Open,2025-12-11,
+0008030: [Declaration Flow] Composition not updated after overwriting the existing,Closed,2025-12-11,2025-12-18
 0008029: [Declaration Flow] Unable to edit declaration through Edit Button,Open,2025-12-11,
 0008028: [Campaign Manager] - Y-Axis Not Displaying Full Supplier Names,Open,2025-12-09,
-0008027: [Declaration Flow] Unknown Substance button is missing while filling declaration,Open,2025-12-09,
+0008027: [Declaration Flow] Unknown Substance button is missing while filling declaration,Closed,2025-12-09,2025-12-18
 0008026: [Declaration Flow] Unknown Substance not displayed in the popup,Closed,2025-12-09,2025-12-15
 0008025: Unable to reset password through email and from account,Open,2025-12-09,
 0008024: [Campaign Manager] - Composition Submission Data Missing in “Type of Data Received” Graph,Open,2025-12-08,
 0008023: [Declaration Flow] Affected Object are not displayed upon opening it to supplier.,Closed,2025-12-08,2025-12-15
-0008022: [Declaration Flow] "3" is displayed in declared compliance after removing exemption,Open,2025-12-08,
+0008022: [Declaration Flow] "3" is displayed in declared compliance after removing exemption,Closed,2025-12-08,2025-12-18
 0008021: [Campaign Manager] - No Declarations Created and Validation Errors Not Displayed,Open,2025-12-08,
 0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field,Open,2025-12-08,
 0008019: [Declaration Flow] Affected Object dropdown selection issue,Closed,2025-12-08,2025-12-15
@@ -38,7 +43,7 @@ Bug Info,Status,Created Date,Closed Date
 0008016: [Substance-Where-Used-Report] UI issue upon substance selection,Open,2025-12-08,
 0008014: Incorrect percentages in Campaign Analytics Graph Data,Open,2025-12-08,
 0008013: [Pending Declaration] Default sorting is not according latest created declaration,Closed,2025-12-08,2025-12-12
-0008011: [Declaration Flow] Icons are not clickable once closed through the cross button,Open,2025-12-08,
+0008011: [Declaration Flow] Icons are not clickable once closed through the cross button,Closed,2025-12-08,2025-12-18
 0008010: [PM-Specification] Specification Creation Failure,Closed,2025-12-08,2025-12-12
 0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed,Open,2025-12-08,
 0008006: Set Priority Field Not Allowing Selection of Low or Medium Options,Closed,2025-12-05,2025-12-11
