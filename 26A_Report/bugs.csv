@@ -2,7 +2,6 @@
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs
 0008050: [Campaign Manager] - Target completion date selection issue
 0008049: [Campaign Manager] - Specification selection issue
-0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications
 0008046: [Declaration Flow] Drag and Upload not working
 0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics
 0008044: [Declaration Flow] Download Template State not updated upon option selection.
@@ -12,7 +11,6 @@
 0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts
 0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph
 0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received'
-0008035: [Declaration Flow] Need a Review Errors step for 4th option (Manually Add Substance)
 0008034: [Campaign Manager] - Completion rate and Status Display Errors
 0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph
 0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error
