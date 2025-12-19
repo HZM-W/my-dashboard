@@ -11,7 +11,7 @@ Bug Info,Status,Created Date,Closed Date
 0008049: [Campaign Manager] - Specification selection issue,Open,2025-12-17,
 0008048: GoCompliance Chabot Not working showing unexpected error,Closed,2025-12-17,2025-12-17
 0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications,Closed,2025-12-17,2025-12-18
-0008046: [Declaration Flow] Drag and Upload not working,Open,2025-12-17,
+0008046: [Declaration Flow] Drag and Upload not working,Closed,2025-12-17,2025-12-19
 0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics,Open,2025-12-16,
 0008044: [Declaration Flow] Download Template State not updated upon option selection.,Closed,2025-12-16,2025-12-18
 0008043: [Declaration Flow] Affected Object Selection Issue - Parent/Child Specs,Closed,2025-12-16,2025-12-18
@@ -26,7 +26,7 @@ Bug Info,Status,Created Date,Closed Date
 0008034: [Campaign Manager] - Completion rate and Status Display Errors,Open,2025-12-11,
 0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph,Open,2025-12-11,
 0008032: [Declaration Flow] Add "Composition Type" Column in Affected object tab of Declaration block,Closed,2025-12-11,2025-12-12
-0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error,Open,2025-12-11,
+0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error,Closed,2025-12-11,2025-12-19
 0008030: [Declaration Flow] Composition not updated after overwriting the existing,Closed,2025-12-11,2025-12-18
 0008029: [Declaration Flow] Unable to edit declaration through Edit Button,Open,2025-12-11,
 0008028: [Campaign Manager] - Y-Axis Not Displaying Full Supplier Names,Open,2025-12-09,
