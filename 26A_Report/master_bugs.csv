@@ -1,7 +1,18 @@
 Bug Info,Status,Created Date,Closed Date
+0008071: [Campaign Manager] - Multiple Supplier Selection Not Supported,Open,2025-12-20,
+0008070: [Declaration Flow] Attach CoC without declaring compliance redirects to declaration with Not Filled status,Open,2025-12-20,
+0008069: [Campaign Manager] - Incorrect Parent Child Behavior for Specification,Open,2025-12-20,
+0008068: [Campaign Manager] - Validation Summary Error Shown for import files,Open,2025-12-20,
+0008067: [Campaign Manager] - Missing Files Email Trigger,Open,2025-12-20,
+0008066: [Declaration Flow] Minor UI glitches in pending declaration screen drawers,Open,2025-12-20,
+0008065: [RMI Declaration] UI gets stuck on clicking save,Open,2025-12-19,
+0008064: [RMI Declaration] UI glitch in declaration question section,Open,2025-12-19,
+0008063: [Campaign Manager] - Incorrect Filled Declaration Count,Open,2025-12-19,
+0008062: [Declaration Flow] Delete button not working properly after saving the composition,Open,2025-12-19,
+0008061: [Declaration Flow] Affected Object Selection - Item,Open,2025-12-19,
 0008060: [Campaign Manager] - Completion Rate Not Displayed for Closed Campaigns,Open,2025-12-18,
 0008059: [Campaign Manager] - Validation Errors Show Wrong Specification,Open,2025-12-18,
-0008058: [Campaign Manager] - Reset Button issue,Open,2025-12-18,
+0008058: [Campaign Manager] - Reset Button issue,Closed,2025-12-18,2025-12-20
 0008057: [Campaign Manager] - Incorrect Column Names in Type of Data Received Table,Closed,2025-12-18,2025-12-18
 0008056: [Campaign Manager] - Specification-Based Response Graph Shows Irrelevant Campaigns,Open,2025-12-18,
 0008055: [Declaration Flow] UI Issue after submitting declaration for approval,Open,2025-12-18,
@@ -9,7 +20,7 @@ Bug Info,Status,Created Date,Closed Date
 0008053: [Campaign Manager] - Campaign deadline performance issue,Open,2025-12-18,
 0008052: [MPN block] Compute Compliance from Composition giving an validation type error.,Closed,2025-12-17,2025-12-18
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs,Open,2025-12-17,
-0008050: [Campaign Manager] - Target completion date selection issue,Open,2025-12-17,
+0008050: [Campaign Manager] - Target completion date selection issue,Closed,2025-12-17,2025-12-20
 0008049: [Campaign Manager] - Specification selection issue,Open,2025-12-17,
 0008048: GoCompliance Chabot Not working showing unexpected error,Closed,2025-12-17,2025-12-17
 0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications,Closed,2025-12-17,2025-12-18
@@ -22,7 +33,7 @@ Bug Info,Status,Created Date,Closed Date
 0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts,Open,2025-12-15,
 0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Closed,2025-12-12,2025-12-17
 0008038: [Generate CoC] Unable to Generate CoC report on test instance,Closed,2025-12-12,2025-12-17
-0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph,Open,2025-12-11,
+0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph,Closed,2025-12-11,2025-12-20
 0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received',Open,2025-12-11,
 0008035: [Declaration Flow] Need a Review Errors step for 4th option (Manually Add Substance),Closed,2025-12-11,2025-12-18
 0008034: [Campaign Manager] - Completion rate and Status Display Errors,Open,2025-12-11,
@@ -31,15 +42,15 @@ Bug Info,Status,Created Date,Closed Date
 0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error,Closed,2025-12-11,2025-12-18
 0008030: [Declaration Flow] Composition not updated after overwriting the existing,Closed,2025-12-11,2025-12-18
 0008029: [Declaration Flow] Unable to edit declaration through Edit Button,Open,2025-12-11,
-0008028: [Campaign Manager] - Y-Axis Not Displaying Full Supplier Names,Open,2025-12-09,
+0008028: [Campaign Manager] - Y-Axis Not Displaying Full Supplier Names,Closed,2025-12-09,2025-12-20
 0008027: [Declaration Flow] Unknown Substance button is missing while filling declaration,Closed,2025-12-09,2025-12-18
 0008026: [Declaration Flow] Unknown Substance not displayed in the popup,Closed,2025-12-09,2025-12-15
-0008025: Unable to reset password through email and from account,Open,2025-12-09,
-0008024: [Campaign Manager] - Composition Submission Data Missing in “Type of Data Received” Graph,Open,2025-12-08,
+0008025: Unable to reset password through email and from account,Closed,2025-12-09,2025-12-20
+0008024: [Campaign Manager] - Composition Submission Data Missing in “Type of Data Received” Graph,Closed,2025-12-08,2025-12-20
 0008023: [Declaration Flow] Affected Object are not displayed upon opening it to supplier.,Closed,2025-12-08,2025-12-15
 0008022: [Declaration Flow] "3" is displayed in declared compliance after removing exemption,Closed,2025-12-08,2025-12-18
 0008021: [Campaign Manager] - No Declarations Created and Validation Errors Not Displayed,Open,2025-12-08,
-0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field,Open,2025-12-08,
+0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field,Closed,2025-12-08,2025-12-20
 0008019: [Declaration Flow] Affected Object dropdown selection issue,Closed,2025-12-08,2025-12-15
 0008018: Upload Attachment Error for FMD (IPC Class D),Open,2025-12-08,
 0008017: [Campaign Manager] Average Supplier Response Time Showing Negative Value,Closed,2025-12-08,2025-12-11
