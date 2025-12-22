@@ -66,52 +66,58 @@
       </div>
 
       <!-- Chart -->
-      <div class="col-lg-8">
-        <div class="card card-ghost p-3 chart-card">
-          <div class="d-flex justify-content-between align-items-center">
-            <h5 class="mb-0">New vs Closed Issues</h5>
-            <div>
-              <span class="legend-dot" style="background:#d69d2f"></span> New Issues
-              <span class="mx-2 legend-dot" style="background:#2f8e3c"></span> Closed Issues
-            </div>
-          </div>
-          <div class="pt-3" style="height:350px">
-            <canvas id="issuesChart"></canvas>
+    <div class="col-lg-8">
+      <div class="card card-ghost p-3 chart-card d-flex flex-column"> <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="mb-0">New vs Closed Issues</h5>
+          <div>
+            <span class="legend-dot" style="background:#d69d2f"></span> New Issues
+            <span class="mx-2 legend-dot" style="background:#2f8e3c"></span> Closed Issues
           </div>
         </div>
-      </div>
-
-      <!-- Features in this release  -->
-      <div class="col-lg-6">
-        <div class="card card-ghost p-4">
-          <h6 class="section-title"><i class="fa-solid fa-puzzle-piece me-2"></i>Features in this release</h6>
-          <p class="note">Features to be covered in this release</p>
-          <ul id="featureRelease" class="mb-0"></ul>
-          <p class="note mt-2"><em>Note: The list may get updated. </em></p>
+        
+        <div class="flex-grow-1 position-relative" style="min-height: 350px;">
+          <canvas id="issuesChart"></canvas>
         </div>
-      </div>
-
-      <!-- Bugs -->
-    <div class="col-lg-6">
-      <div class="card card-ghost p-4">
-        <h6 class="section-title"><i class="fa-solid fa-bug me-2"></i>Open Important Bugs</h6>
-        <p class="note">These bugs are high-priority. Immediate attention is required:</p>
-
-        <table id="bugsTable" class="table table-striped table-bordered">
-          <thead>
-            <tr>
-              <th>Bug ID</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-
-        <p class="note mt-2"><em>Note: This list is updated based on severity and impact.</em></p>
       </div>
     </div>
 
-    <script>
+      <div class="row g-4"> <div class="col-lg-6 d-flex flex-column gap-4">
+    
+    <div class="card card-ghost p-4">
+      <h6 class="section-title"><i class="fa-solid fa-puzzle-piece me-2"></i>Features in this release</h6>
+      <p class="note">Features to be covered in this release</p>
+      <ul id="featureRelease" class="mb-0"></ul>
+      <p class="note mt-2"><em>Note: The list may get updated.</em></p>
+    </div>
+
+    <div class="card card-ghost p-4 flex-grow-1">
+      <h6 class="section-title" style="color:#f6b200"><i class="fa-solid fa-pencil me-2"></i>Pending Test Coverage</h6>
+      <p class="note">Items not yet fully covered by testing:</p>
+      <ul id="pendingList" class="mb-0"></ul>
+      <p class="note mt-2"><em>Note: Some items may be partially tested and need revalidation.</em></p>
+    </div>
+
+  </div>
+
+  <div class="col-lg-6">
+    <div class="card card-ghost p-4 h-100"> <h6 class="section-title"><i class="fa-solid fa-bug me-2"></i>Open Important Bugs</h6>
+      <p class="note">These bugs are high-priority. Immediate attention is required:</p>
+
+      <table id="bugsTable" class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Bug ID</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <p class="note mt-2"><em>Note: This list is updated based on severity and impact.</em></p>
+    </div>
+  </div>
+
+  <script>
       async function loadBugsFromCSV() {
         try {
           const response = await fetch("bugs.csv");
@@ -150,16 +156,6 @@
 
 
 
-      <!-- Pending -->
-      <div class="col-lg-6">
-        <div class="card card-ghost p-4">
-          <h6 class="section-title" style="color:#f6b200"><i class="fa-solid fa-pencil me-2"></i>Pending Test Coverage</h6>
-          <p class="note">Items not yet fully covered by testing:</p>
-          <ul id="pendingList" class="mb-0"></ul>
-          <p class="note mt-2"><em>Note: Some items may be partially tested and need revalidation.</em></p>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- JS libs -->
