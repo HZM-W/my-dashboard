@@ -1,24 +1,28 @@
 Bug Info,Status,Created Date,Closed Date
-0008072: [Campaign Manager] - Error While Launching Draft Campaign Without Edit,Open,2025-12-22,
-0008071: [Campaign Manager] - Multiple Supplier Selection Not Supported,Open,2025-12-20,
+0008076: [Campaign Manager] - 'Campaign1212' Remains in Draft State After Launch,Open,2025-12-22,
+0008075: [Campaign Manager] - Campaign Sorting by Creation/Update Date,Open,2025-12-22,
+0008074: [Campaign Manager] - Created Date Filter Not Working Correctly,Open,2025-12-22,
+0008073: [Campaign Manager] - Blank Supplier Selection,Open,2025-12-22,
+0008072: [Campaign Manager] - Error While Launching Draft Campaign Without Edit,Closed,2025-12-22,2025-12-22
+0008071: [Campaign Manager] - Multiple Supplier Selection Not Supported,Closed,2025-12-20,2025-12-22
 0008070: [Declaration Flow] Attach CoC without declaring compliance redirects to declaration with Not Filled status,Closed,2025-12-20,2025-12-22
-0008069: [Campaign Manager] - Incorrect Parent Child Behavior for Specification,Open,2025-12-20,
+0008069: [Campaign Manager] - Incorrect Parent Child Behavior for Specification,Closed,2025-12-20,2025-12-22
 0008068: [Campaign Manager] - Validation Summary Error Shown for import files,Open,2025-12-20,
 0008067: [Campaign Manager] - Missing Files Email Trigger,Open,2025-12-20,
 0008066: [Declaration Flow] Minor UI glitches in pending declaration screen drawers,Closed,2025-12-20,2025-12-22
 0008065: [RMI Declaration] UI gets stuck on clicking save,Closed,2025-12-19,2025-12-22
 0008064: [RMI Declaration] UI glitch in declaration question section,Open,2025-12-19,
-0008063: [Campaign Manager] - Incorrect Filled Declaration Count,Open,2025-12-19,
+0008063: [Campaign Manager] - Incorrect Filled Declaration Count,Closed,2025-12-19,2025-12-22
 0008062: [Declaration Flow] Delete button not working properly after saving the composition,Closed,2025-12-19,2025-12-22
 0008061: [Declaration Flow] Affected Object Selection - Item,Closed,2025-12-19,2025-12-22
-0008060: [Campaign Manager] - Completion Rate Not Displayed for Closed Campaigns,Open,2025-12-18,
+0008060: [Campaign Manager] - Completion Rate Not Displayed for Closed Campaigns,Closed,2025-12-18,2025-12-22
 0008059: [Campaign Manager] - Validation Errors Show Wrong Specification,Open,2025-12-18,
 0008058: [Campaign Manager] - Reset Button issue,Closed,2025-12-18,2025-12-20
 0008057: [Campaign Manager] - Incorrect Column Names in Type of Data Received Table,Closed,2025-12-18,2025-12-18
 0008056: [Campaign Manager] - Specification-Based Response Graph Shows Irrelevant Campaigns,Open,2025-12-18,
 0008055: [Declaration Flow] UI Issue after submitting declaration for approval,Closed,2025-12-18,2025-12-22
 0008054: [Campaign Manage] - Missing Supplier and Parts After Launching an Edited Campaign,Open,2025-12-18,
-0008053: [Campaign Manager] - Campaign deadline performance issue,Open,2025-12-18,
+0008053: [Campaign Manager] - Campaign deadline performance issue,Closed,2025-12-18,2025-12-22
 0008052: [MPN block] Compute Compliance from Composition giving an validation type error.,Closed,2025-12-17,2025-12-18
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs,Open,2025-12-17,
 0008050: [Campaign Manager] - Target completion date selection issue,Closed,2025-12-17,2025-12-20
@@ -35,10 +39,10 @@ Bug Info,Status,Created Date,Closed Date
 0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Closed,2025-12-12,2025-12-17
 0008038: [Generate CoC] Unable to Generate CoC report on test instance,Closed,2025-12-12,2025-12-17
 0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph,Closed,2025-12-11,2025-12-20
-0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received',Open,2025-12-11,
+0008036: [Campaign Manager] - Incorrect Data Display in 'Type of Data Received',Closed,2025-12-11,2025-12-22
 0008035: [Declaration Flow] Need a Review Errors step for 4th option (Manually Add Substance),Closed,2025-12-11,2025-12-18
-0008034: [Campaign Manager] - Completion rate and Status Display Errors,Open,2025-12-11,
-0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph,Open,2025-12-11,
+0008034: [Campaign Manager] - Completion rate and Status Display Errors,Closed,2025-12-11,2025-12-22
+0008033: [Campaign Manager] - Incorrect Count in Submission Methods by Suppliers Graph,Closed,2025-12-11,2025-12-22
 0008032: [Declaration Flow] Add "Composition Type" Column in Affected object tab of Declaration block,Closed,2025-12-11,2025-12-12
 0008031: [Declaration Flow] Uploading IPC class C file in IPC class D produces unknown Error,Closed,2025-12-11,2025-12-18
 0008030: [Declaration Flow] Composition not updated after overwriting the existing,Closed,2025-12-11,2025-12-18
@@ -56,7 +60,7 @@ Bug Info,Status,Created Date,Closed Date
 0008018: Upload Attachment Error for FMD (IPC Class D),Open,2025-12-08,
 0008017: [Campaign Manager] Average Supplier Response Time Showing Negative Value,Closed,2025-12-08,2025-12-11
 0008016: [Substance-Where-Used-Report] UI issue upon substance selection,Closed,2025-12-08,2025-12-22
-0008014: Incorrect percentages in Campaign Analytics Graph Data,Open,2025-12-08,
+0008014: Incorrect percentages in Campaign Analytics Graph Data,Closed,2025-12-08,2025-12-22
 0008013: [Pending Declaration] Default sorting is not according latest created declaration,Closed,2025-12-08,2025-12-12
 0008011: [Declaration Flow] Icons are not clickable once closed through the cross button,Closed,2025-12-08,2025-12-18
 0008010: [PM-Specification] Specification Creation Failure,Closed,2025-12-08,2025-12-12
@@ -71,7 +75,7 @@ Bug Info,Status,Created Date,Closed Date
 0007997: Edited campaign shows Draft status in Campaign Manager but Active in campaign state history.,Closed,2025-12-05,2025-12-11
 0007996: Validation Errors tab does not display duplicate or partially overlapping campaign data,Open,2025-12-05,
 0007995: Incorrect Progress Percentage Displayed for Active Campaign,Closed,2025-12-05,2025-12-11
-0007994: Test Instance Running Slow,Open,2025-12-05,
+0007994: Test Instance Running Slow,Closed,2025-12-05,2025-12-22
 0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details,Open,2025-12-05,
 0007988: Approved CMRT question answers data is not visible,Open,2025-12-05,
 0007987: FMD mass is not picked on IPC Class-C file imported (Tag: 26A Hotfix),Open,2025-12-05,
