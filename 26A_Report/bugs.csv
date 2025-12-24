@@ -1,15 +1,12 @@
-0008080: [Declaration Flow] Copy Composition from feature is not working
+0008083: [Declaration Flow] Copy Composition from feature state not updated
+0008082: [Campaign Manager] - Missing Parts in Empty Supplier Campaign
+0008081: [Campaign Manager] - Incorrect Manufacturer Parts and Email Count
 0008079: [Declaration Flow] Uploading a Class C and D file (XML XLSM) without FMD Mass
 0008078: [Declaration Flow] Partial declaration - status is not updated for affected objects
-0008077: [Campaign Manager] - Target Completion Date Issue
 0008076: [Campaign Manager] - 'Campaign1212' Remains in Draft State After Launch
 0008075: [Campaign Manager] - Campaign Sorting by Creation/Update Date
-0008074: [Campaign Manager] - Created Date Filter Not Working Correctly
-0008073: [Campaign Manager] - Blank Supplier Selection
 0008068: [Campaign Manager] - Validation Summary Error Shown for import files
 0008067: [Campaign Manager] - Missing Files Email Trigger
-0008059: [Campaign Manager] - Validation Errors Show Wrong Specification
-0008056: [Campaign Manager] - Specification-Based Response Graph Shows Irrelevant Campaigns
 0008054: [Campaign Manage] - Missing Supplier and Parts After Launching an Edited Campaign
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs
 0008049: [Campaign Manager] - Specification selection issue

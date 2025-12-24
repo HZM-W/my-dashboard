@@ -1,12 +1,15 @@
 Bug Info,Status,Created Date,Closed Date
-0008080: [Declaration Flow] Copy Composition from feature is not working,Open,2025-12-23,
+0008083: [Declaration Flow] Copy Composition from feature state not updated,Open,2025-12-24,
+0008082: [Campaign Manager] - Missing Parts in Empty Supplier Campaign,Open,2025-12-24,
+0008081: [Campaign Manager] - Incorrect Manufacturer Parts and Email Count,Open,2025-12-23,
+0008080: [Declaration Flow] Copy Composition from feature is not working,Closed,2025-12-23,2025-12-24
 0008079: [Declaration Flow] Uploading a Class C and D file (XML XLSM) without FMD Mass,Open,2025-12-23,
 0008078: [Declaration Flow] Partial declaration - status is not updated for affected objects,Open,2025-12-23,
-0008077: [Campaign Manager] - Target Completion Date Issue,Open,2025-12-23,
+0008077: [Campaign Manager] - Target Completion Date Issue,Closed,2025-12-23,2025-12-23
 0008076: [Campaign Manager] - 'Campaign1212' Remains in Draft State After Launch,Open,2025-12-22,
 0008075: [Campaign Manager] - Campaign Sorting by Creation/Update Date,Open,2025-12-22,
-0008074: [Campaign Manager] - Created Date Filter Not Working Correctly,Open,2025-12-22,
-0008073: [Campaign Manager] - Blank Supplier Selection,Open,2025-12-22,
+0008074: [Campaign Manager] - Created Date Filter Not Working Correctly,Closed,2025-12-22,2025-12-23
+0008073: [Campaign Manager] - Blank Supplier Selection,Closed,2025-12-22,2025-12-24
 0008072: [Campaign Manager] - Error While Launching Draft Campaign Without Edit,Closed,2025-12-22,2025-12-22
 0008071: [Campaign Manager] - Multiple Supplier Selection Not Supported,Closed,2025-12-20,2025-12-22
 0008070: [Declaration Flow] Attach CoC without declaring compliance redirects to declaration with Not Filled status,Closed,2025-12-20,2025-12-22
@@ -20,10 +23,10 @@ Bug Info,Status,Created Date,Closed Date
 0008062: [Declaration Flow] Delete button not working properly after saving the composition,Closed,2025-12-19,2025-12-22
 0008061: [Declaration Flow] Affected Object Selection - Item,Closed,2025-12-19,2025-12-22
 0008060: [Campaign Manager] - Completion Rate Not Displayed for Closed Campaigns,Closed,2025-12-18,2025-12-22
-0008059: [Campaign Manager] - Validation Errors Show Wrong Specification,Open,2025-12-18,
+0008059: [Campaign Manager] - Validation Errors Show Wrong Specification,Closed,2025-12-18,2025-12-23
 0008058: [Campaign Manager] - Reset Button issue,Closed,2025-12-18,2025-12-20
 0008057: [Campaign Manager] - Incorrect Column Names in Type of Data Received Table,Closed,2025-12-18,2025-12-18
-0008056: [Campaign Manager] - Specification-Based Response Graph Shows Irrelevant Campaigns,Open,2025-12-18,
+0008056: [Campaign Manager] - Specification-Based Response Graph Shows Irrelevant Campaigns,Closed,2025-12-18,2025-12-23
 0008055: [Declaration Flow] UI Issue after submitting declaration for approval,Closed,2025-12-18,2025-12-22
 0008054: [Campaign Manage] - Missing Supplier and Parts After Launching an Edited Campaign,Open,2025-12-18,
 0008053: [Campaign Manager] - Campaign deadline performance issue,Closed,2025-12-18,2025-12-22
