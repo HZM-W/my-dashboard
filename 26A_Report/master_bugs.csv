@@ -35,18 +35,18 @@ Bug Info,Status,Created Date,Closed Date
 0008054: [Campaign Manage] - Missing Supplier and Parts After Launching an Edited Campaign,Closed,2025-12-18,2025-12-24
 0008053: [Campaign Manager] - Campaign deadline performance issue,Closed,2025-12-18,2025-12-22
 0008052: [MPN block] Compute Compliance from Composition giving an validation type error.,Closed,2025-12-17,2025-12-18
-0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs,Open,2025-12-17,
+0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs,Closed,2025-12-17,2025-12-18
 0008050: [Campaign Manager] - Target completion date selection issue,Closed,2025-12-17,2025-12-20
 0008049: [Campaign Manager] - Specification selection issue,Open,2025-12-17,
 0008048: GoCompliance Chabot Not working showing unexpected error,Closed,2025-12-17,2025-12-17
 0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications,Closed,2025-12-17,2025-12-18
 0008046: [Declaration Flow] Drag and Upload not working,Closed,2025-12-17,2025-12-18
-0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics,Open,2025-12-16,
+0008045: [Campaign Manager] - Incorrect “Type of Data Received” Values in Dashboard Analytics,Closed,2025-12-16,2025-12-18
 0008044: [Declaration Flow] Download Template State not updated upon option selection.,Closed,2025-12-16,2025-12-18
 0008043: [Declaration Flow] Affected Object Selection Issue - Parent/Child Specs,Closed,2025-12-16,2025-12-18
 0008042: [Declaration Flow] Download Template Bug,Closed,2025-12-16,2025-12-18
-0008041: Campaign Manager - Dashboard Completion Rate Graph Bars Not Clickable,Open,2025-12-15,
-0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts,Open,2025-12-15,
+0008041: Campaign Manager - Dashboard Completion Rate Graph Bars Not Clickable,Closed,2025-12-15,2025-12-18
+0008040: [Campaign Manager] - Duplicate Campaigns Created as drafts,Closed,2025-12-15,2025-12-22
 0008039: [Generate CoC] Line Break/ New Paragraph is not reflected in output file,Closed,2025-12-12,2025-12-17
 0008038: [Generate CoC] Unable to Generate CoC report on test instance,Closed,2025-12-12,2025-12-17
 0008037: [Campaign Manager] - Missing Supplier in Supplier distribution by completion rate (%) graph,Closed,2025-12-11,2025-12-20
@@ -65,7 +65,7 @@ Bug Info,Status,Created Date,Closed Date
 0008024: [Campaign Manager] - Composition Submission Data Missing in “Type of Data Received” Graph,Closed,2025-12-08,2025-12-20
 0008023: [Declaration Flow] Affected Object are not displayed upon opening it to supplier.,Closed,2025-12-08,2025-12-15
 0008022: [Declaration Flow] "3" is displayed in declared compliance after removing exemption,Closed,2025-12-08,2025-12-18
-0008021: [Campaign Manager] - No Declarations Created and Validation Errors Not Displayed,Open,2025-12-08,
+0008021: [Campaign Manager] - No Declarations Created and Validation Errors Not Displayed,Closed,2025-12-08,2025-12-18
 0008020: [Campaign Manager] Performance Issue in “Add Specifications” Search Field,Closed,2025-12-08,2025-12-20
 0008019: [Declaration Flow] Affected Object dropdown selection issue,Closed,2025-12-08,2025-12-15
 0008018: Upload Attachment Error for FMD (IPC Class D),Closed,2025-12-08,2025-12-24
@@ -81,10 +81,10 @@ Bug Info,Status,Created Date,Closed Date
 0008004: Composition with invalid CAS Number was submitted,Open,2025-12-05,
 0008003: Supplier is not able to open declaration blocks,Open,2025-12-05,
 0008002: Supplier Distribution Chart - Y-Axis Value Format Issue,Closed,2025-12-05,2025-12-11
-0008001: Selected Specifications Not Displayed in Campaign Manager,Open,2025-12-05,
+0008001: Selected Specifications Not Displayed in Campaign Manager,Closed,2025-12-05,2025-12-18
 0007998: Declaration Still Listed Under Awaiting Approval and Progress Incorrectly Updated,Closed,2025-12-05,2025-12-11
 0007997: Edited campaign shows Draft status in Campaign Manager but Active in campaign state history.,Closed,2025-12-05,2025-12-11
-0007996: Validation Errors tab does not display duplicate or partially overlapping campaign data,Open,2025-12-05,
+0007996: Validation Errors tab does not display duplicate or partially overlapping campaign data,Closed,2025-12-05,2025-12-18
 0007995: Incorrect Progress Percentage Displayed for Active Campaign,Closed,2025-12-05,2025-12-11
 0007994: Test Instance Running Slow,Closed,2025-12-05,2025-12-22
 0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details,Open,2025-12-05,
