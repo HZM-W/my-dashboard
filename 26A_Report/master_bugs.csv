@@ -1,24 +1,24 @@
 Bug Info,Status,Created Date,Closed Date
 0008087: [Declaration Flow] Manual Fill - Ipc Class C - UI stuck on saving composition,Open,2025-12-29,
-0008086: [Declaration Flow] Upload a Coc - User is able to attach file of any format,Open,2025-12-29,
+0008086: [Declaration Flow] Upload a Coc - User is able to attach file of any format,Closed,2025-12-29,2025-12-29
 0008085: Dashboard - 404 Error When Opening Blogs from News Section,Open,2025-12-29,
 0008084: [Campaign Manager] - Empty supplier declaration issue,Closed,2025-12-24,2025-12-24
-0008083: [Declaration Flow] Copy Composition from feature state not updated,Open,2025-12-24,
+0008083: [Declaration Flow] Copy Composition from feature state not updated,Closed,2025-12-24,2025-12-29
 0008082: [Campaign Manager] - Missing Parts in Empty Supplier Campaign,Closed,2025-12-24,2025-12-24
-0008081: [Campaign Manager] - Incorrect Manufacturer Parts and Email Count,Open,2025-12-23,
+0008081: [Campaign Manager] - Incorrect Manufacturer Parts and Email Count,Closed,2025-12-23,2025-12-29
 0008080: [Declaration Flow] Copy Composition from feature is not working,Closed,2025-12-23,2025-12-24
-0008079: [Declaration Flow] Uploading a Class C and D file (XML XLSM) without FMD Mass,Open,2025-12-23,
-0008078: [Declaration Flow] Partial declaration - status is not updated for affected objects,Open,2025-12-23,
+0008079: [Declaration Flow] Uploading a Class C and D file (XML XLSM) without FMD Mass,Closed,2025-12-23,2025-12-29
+0008078: [Declaration Flow] Partial declaration - status is not updated for affected objects,Closed,2025-12-23,2025-12-29
 0008077: [Campaign Manager] - Target Completion Date Issue,Closed,2025-12-23,2025-12-23
 0008076: [Campaign Manager] - 'Campaign1212' Remains in Draft State After Launch,Closed,2025-12-22,2025-12-24
-0008075: [Campaign Manager] - Campaign Sorting by Creation/Update Date,Open,2025-12-22,
+0008075: [Campaign Manager] - Campaign Sorting by Creation/Update Date,Closed,2025-12-22,2025-12-29
 0008074: [Campaign Manager] - Created Date Filter Not Working Correctly,Closed,2025-12-22,2025-12-23
 0008073: [Campaign Manager] - Blank Supplier Selection,Closed,2025-12-22,2025-12-24
 0008072: [Campaign Manager] - Error While Launching Draft Campaign Without Edit,Closed,2025-12-22,2025-12-22
 0008071: [Campaign Manager] - Multiple Supplier Selection Not Supported,Closed,2025-12-20,2025-12-22
 0008070: [Declaration Flow] Attach CoC without declaring compliance redirects to declaration with Not Filled status,Closed,2025-12-20,2025-12-22
 0008069: [Campaign Manager] - Incorrect Parent Child Behavior for Specification,Closed,2025-12-20,2025-12-22
-0008068: [Campaign Manager] - Validation Summary Error Shown for import files,Open,2025-12-20,
+0008068: [Campaign Manager] - Validation Summary Error Shown for import files,Closed,2025-12-20,2025-12-29
 0008067: [Campaign Manager] - Missing Files Email Trigger,Open,2025-12-20,
 0008066: [Declaration Flow] Minor UI glitches in pending declaration screen drawers,Closed,2025-12-20,2025-12-22
 0008065: [RMI Declaration] UI gets stuck on clicking save,Closed,2025-12-19,2025-12-22
@@ -91,7 +91,7 @@ Bug Info,Status,Created Date,Closed Date
 0007988: Approved CMRT question answers data is not visible,Open,2025-12-05,
 0007987: FMD mass is not picked on IPC Class-C file imported (Tag: 26A Hotfix),Open,2025-12-05,
 0007985: Substance cannot be added be added multiple times for IPC-Class C (Tag: 26A Hotfix),Open,2025-12-05,
-0007983: FMD Mass is non-editable (Tag: 26A Hotfix),Open,2025-12-10,
+0007983: FMD Mass is non-editable (Tag: 26A Hotfix),Closed,2025-12-10,2025-12-29
 0007981: Follow-Up Schedule Field Issue,Closed,2025-12-11,2025-12-11
 0007970: Item creation with organization association failing in test environment,Closed,2025-12-11,2025-12-11
 0007965: In the Regulated Substances Report no data is displayed in the generated report for newly created bundle,Open,2025-12-05,

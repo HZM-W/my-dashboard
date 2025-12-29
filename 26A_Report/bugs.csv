@@ -1,12 +1,5 @@
 0008087: [Declaration Flow] Manual Fill - Ipc Class C - UI stuck on saving composition
-0008086: [Declaration Flow] Upload a Coc - User is able to attach file of any format
 0008085: Dashboard - 404 Error When Opening Blogs from News Section
-0008083: [Declaration Flow] Copy Composition from feature state not updated
-0008081: [Campaign Manager] - Incorrect Manufacturer Parts and Email Count
-0008079: [Declaration Flow] Uploading a Class C and D file (XML XLSM) without FMD Mass
-0008078: [Declaration Flow] Partial declaration - status is not updated for affected objects
-0008075: [Campaign Manager] - Campaign Sorting by Creation/Update Date
-0008068: [Campaign Manager] - Validation Summary Error Shown for import files
 0008067: [Campaign Manager] - Missing Files Email Trigger
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs
 0008049: [Campaign Manager] - Specification selection issue
@@ -23,6 +16,5 @@
 0007988: Approved CMRT question answers data is not visible
 0007987: FMD mass is not picked on IPC Class-C file imported (Tag: 26A Hotfix)
 0007985: Substance cannot be added be added multiple times for IPC-Class C (Tag: 26A Hotfix)
-0007983: FMD Mass is non-editable (Tag: 26A Hotfix)
 0007965: In the Regulated Substances Report no data is displayed in the generated report for newly created bundle
 0007962: [Material Declaration from PLM] Workflow status not updated
