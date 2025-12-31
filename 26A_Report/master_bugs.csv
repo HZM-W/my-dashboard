@@ -2,11 +2,11 @@ Bug Info,Status,Created Date,Closed Date
 0008092: [Chatbot] unable to handle irrelevant responses,Open,2025-12-31,
 0008091: [Campaign Manager] - Supplier Email issue,Closed,2025-12-30,2025-12-31
 0008090: [Declaration Flow] Select Affected Object - Select All not working,Closed,2025-12-30,2025-12-30
-0008089: [Declaration Flow] Overwrite existing composition - edge case of overwrite composition,Closed,2025-12-30,2025-12-30
+0008089: [Declaration Flow] Overwrite existing composition - edge case of overwrite composition,Closed,2025-12-30,2025-12-31
 0008088: [Declaration Flow] Effective Till and from dates are not reflected in the grid when provided in the flow,Closed,2025-12-30,2025-12-30
-0008087: [Declaration Flow] Manual Fill - Ipc Class C - UI stuck on saving composition,Open,2025-12-29,
+0008087: [Declaration Flow] Manual Fill - Ipc Class C - UI stuck on saving composition,Closed,2025-12-29,2025-12-31
 0008086: [Declaration Flow] Upload a Coc - User is able to attach file of any format,Closed,2025-12-29,2025-12-29
-0008085: Dashboard - 404 Error When Opening Blogs from News Section,Open,2025-12-29,
+0008085: Dashboard - 404 Error When Opening Blogs from News Section,Closed,2025-12-29,2025-12-31
 0008084: [Campaign Manager] - Empty supplier declaration issue,Closed,2025-12-24,2025-12-24
 0008083: [Declaration Flow] Copy Composition from feature state not updated,Closed,2025-12-24,2025-12-29
 0008082: [Campaign Manager] - Missing Parts in Empty Supplier Campaign,Closed,2025-12-24,2025-12-24
@@ -42,7 +42,7 @@ Bug Info,Status,Created Date,Closed Date
 0008052: [MPN block] Compute Compliance from Composition giving an validation type error.,Closed,2025-12-17,2025-12-18
 0008051: [Campaign Manager] - X-Axis Percentage Scaling on Dashboard Graphs,Closed,2025-12-17,2025-12-18
 0008050: [Campaign Manager] - Target completion date selection issue,Closed,2025-12-17,2025-12-20
-0008049: [Campaign Manager] - Specification selection issue,Open,2025-12-17,
+0008049: [Campaign Manager] - Specification selection issue,Closed,2025-12-17,2025-12-31
 0008048: GoCompliance Chabot Not working showing unexpected error,Closed,2025-12-17,2025-12-17
 0008047: [EXEMPTION BLOCK] Where used tab not displaying specifications,Closed,2025-12-17,2025-12-18
 0008046: [Declaration Flow] Drag and Upload not working,Closed,2025-12-17,2025-12-18
