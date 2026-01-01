@@ -85,7 +85,6 @@ Bug Info,Status,Created Date,Closed Date
 0008008: [Bulk Upload] Jobs failed at backend and no frontend error were displayed,Closed,2025-12-08,2025-12-18
 0008006: Set Priority Field Not Allowing Selection of Low or Medium Options,Closed,2025-12-05,2025-12-11
 0008005: Supplier Distribution by Completion Rate (%) Graph Not Displaying data,Closed,2025-12-05,2025-12-11
-0008004: Composition with invalid CAS Number was submitted,Open,2025-12-05,
 0008003: Supplier is not able to open declaration blocks,Open,2025-12-05,
 0008002: Supplier Distribution Chart - Y-Axis Value Format Issue,Closed,2025-12-05,2025-12-11
 0008001: Selected Specifications Not Displayed in Campaign Manager,Closed,2025-12-05,2025-12-18
@@ -97,7 +96,6 @@ Bug Info,Status,Created Date,Closed Date
 0007993: [Non Compliance chatbot enhancements] - Chabot is able to list Item and MPN without providing other details,Closed,2025-12-05,2025-12-29
 0007988: Approved CMRT question answers data is not visible,Open,2025-12-05,
 0007987: FMD mass is not picked on IPC Class-C file imported (Tag: 26A Hotfix),Closed,2025-12-05,2026-01-01
-0007985: Substance cannot be added be added multiple times for IPC-Class C (Tag: 26A Hotfix),Open,2025-12-05,
 0007983: FMD Mass is non-editable (Tag: 26A Hotfix),Closed,2025-12-10,2025-12-29
 0007981: Follow-Up Schedule Field Issue,Closed,2025-12-11,2025-12-11
 0007970: Item creation with organization association failing in test environment,Closed,2025-12-11,2025-12-11
