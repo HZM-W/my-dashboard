@@ -16,3 +16,10 @@
 0008242: Campaign Agent - Supplier Response Time and Campaign's Priority Level
 0008238: Allow exemption(s) update after file IPC file import
 0008233: Campaign Manager - Selected Parts Not Retained When Using IN File search
+0008207: [BOM Import] BOM import is not capturing second level child components in it's BOM tab .
+0008206: [Bulk Item Import] BOm relation is present on backend  UI not showing child in bom tab of item but parent appears in where use.
+0007903: [TEST] Supplier acceptance was set FALSE yet FMD mass from file was imported and file loaded successfully pop up appeared.
+0007985: Substance cannot be added multiple times for IPC-Class C
+0007384: Applicable part type tab information is not exported when Specification data is exported.
+0008130: [Substance-Where-Used-Report] updates in columns of the report template
+0008165: Campaign Manager  Campaigns Loading Issue
