@@ -1,3 +1,4 @@
+0008319: Unable to approve Part group declaration Unexpected Error is displayed
 0008318: Compliance Update Report Missing Timestamp
 0008317: Declaration Flow - Clearing Issue in CustomAffectedObject and TEFUP Fields
 0008316: Parent-Child Specification Flow unable to select parent spec to give general information data on it.
@@ -22,7 +23,7 @@
 0008207: [BOM Import] BOM import is not capturing second level child components in it's BOM tab .
 0008206: [Bulk Item Import] BOm relation is present on backend  UI not showing child in bom tab of item but parent appears in where use.
 0008131: Declaration flow - Save button remains disabled
-0007903: [TEST] Supplier acceptance was set FALSE yet FMD mass from file was imported and file loaded successfully pop up appeared.
-0007985: Substance cannot be added multiple times for IPC-Class C
-0007384: Applicable part type tab information is not exported when Specification data is exported.
 0008130: [Substance-Where-Used-Report] updates in columns of the report template
+0007985: Substance cannot be added multiple times for IPC-Class C
+0007903: [TEST] Supplier acceptance was set FALSE yet FMD mass from file was imported and file loaded successfully pop up appeared.
+0007384: Applicable part type tab information is not exported when Specification data is exported.
