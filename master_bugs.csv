@@ -29,6 +29,7 @@ Bug Info,Status,Created Date,Closed Date
 0008233: Campaign Manager - Selected Parts Not Retained When Using IN File search,Open,2026-03-30,
 0008207: [BOM Import] BOM import is not capturing second level child components in it's BOM tab .,Open,2026-04-01,
 0008206: [Bulk Item Import] BOm relation is present on backend  UI not showing child in bom tab of item but parent appears in where use.,Open,2026-04-01,
+0008131: Declaration flow - Save button remains disabled,Open,2026-04-01,
 0007903: [TEST] Supplier acceptance was set FALSE yet FMD mass from file was imported and file loaded successfully pop up appeared.,Open,2026-04-01,
 0007985: Substance cannot be added multiple times for IPC-Class C,Open,2026-04-01,
 0007384: Applicable part type tab information is not exported when Specification data is exported.,Open,2026-04-01,
