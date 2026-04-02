@@ -1,3 +1,5 @@
+0008318: Compliance Update Report Missing Timestamp
+0008317: Declaration Flow - Clearing Issue in CustomAffectedObject and TEFUP Fields
 0008316: Parent-Child Specification Flow unable to select parent spec to give general information data on it.
 0008315: Substance Where-Used Report – 'Generate Report' Button Text Update
 0008314: Export to Excel only displays one specification in the file - Item MPN PartGroup
@@ -7,11 +9,11 @@
 0008307: Loading exisiting composition loader appears on part group declaration composition reuse feature is MPN specific.
 0008305: [Search Field] Unable to type in the Specification search field for Item MPN & PG
 0008301: [MPN Search] Final Compliance updates for archived specification when new dec is approved
-0008300: [MPN Search Results] Final Compliance is being displayed for an MPN in draft state
 0008299: Session Expiry - Login glitch
 0008293: Unable to update attribute mapping in admin panel.
 0008285: CMRT - Import file
 0008281: Affected object is not selected in Pending declarations
+0008280: Compliance Update Report - View Report from Dashboard Navigates to Blank Report Page
 0008278: Compliance Update Report - Report page becomes blank on back navigation
 0008272: BOM report - Include items with no Compliance issues Filter
 0008256: Compliance Update Report - Initial Compliance Change Not Displayed for MPN
@@ -24,4 +26,3 @@
 0007985: Substance cannot be added multiple times for IPC-Class C
 0007384: Applicable part type tab information is not exported when Specification data is exported.
 0008130: [Substance-Where-Used-Report] updates in columns of the report template
-0008165: Campaign Manager  Campaigns Loading Issue
