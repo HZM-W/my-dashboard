@@ -6,7 +6,7 @@ Bug Info,Status,Created Date,Closed Date
 0008314: Export to Excel only displays one specification in the file - Item MPN PartGroup, Open,2026-04-01,
 0008313: Unable to request compliance from SE,Open,2026-04-01,
 0008312: Composition Reuse is not loading RMI composition from MFR block in newly created declaration.,Open,2026-03-31,
-0008311: [Declaration] Part group - Unable to import file - Item not matched error is displayed,Open,2026-04-01,
+0008311: [Declaration] Part group - Unable to import file - Item not matched error is displayed,Closed,2026-04-01,2026-04-02
 0008310: [Empty Search] MPN - Expansion arrow is displayed even when there's no data,Closed,2026-04-01,2026-04-01
 0008309: [Empty Search] Part Group - one specification is displayed upon expansion & Final Compliance search field is missing,Closed,2026-04-01,2026-04-01
 0008308: Unable to create a declaration.,Closed,2026-04-01,2026-04-02
