@@ -1,10 +1,8 @@
 0008321: [Substance Library] System enlists multiple substance of same name in search results differentiated by their aliases
 0008320: [Substance library] Country option in Add column for search results; but there's no option fill that field
-0008319: Unable to approve Part group declaration Unexpected Error is displayed
 0008318: Compliance Update Report Missing Timestamp
 0008317: Declaration Flow - Clearing Issue in CustomAffectedObject and TEFUP Fields
 0008316: Parent-Child Specification Flow unable to select parent spec to give general information data on it.
-0008315: Substance Where-Used Report – 'Generate Report' Button Text Update
 0008314: Export to Excel only displays one specification in the file - Item MPN PartGroup
 0008313: Unable to request compliance from SE
 0008312: Composition Reuse is not loading RMI composition from MFR block in newly created declaration.
